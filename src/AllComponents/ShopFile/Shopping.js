@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
+import ProductInfo from './ProductInfo';
 import './Shopping.css';
 import SingleProduct from './SingleProductFile/SingleProduct';
+// Git hub cunnctted
 
 const Shopping = () => {
     const [products, setProducts] = useState([]);
@@ -33,9 +35,7 @@ const Shopping = () => {
             </div>
 
             <div className="cart-container pt-4">
-                <h4>order summary</h4>
-                <p>cart length {cart.length}</p>
-                {/* <h2>name : {name}</h2> */}
+                <ProductInfo cart={cart}></ProductInfo>
 
             </div>
 

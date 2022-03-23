@@ -1,0 +1,22 @@
+.main-shop-container-style{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    height: 650px;
+}
+.products-container{
+    background-color: rgba(58, 241, 241,0.7);
+    /* background-color: aqua; */
+}
+.cart-container{
+    background-color: aquamarine;
+}
+.main-row-card-section{
+    height: 560px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
+
+
+

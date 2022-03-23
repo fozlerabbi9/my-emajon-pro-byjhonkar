@@ -4,7 +4,7 @@ import SingleProduct from './SingleProductFile/SingleProduct';
 
 const Shopping = () => {
     const [products, setProducts] = useState([]);
-    const [cart, setCart] = useState([]);   //new useSet for show cart ditles with evenHendler
+    const [cart, setCart] = useState([]);   //( cool )new useSet for show cart ditles with evenHendler
 
     useEffect(() => {
         fetch('products.json')
